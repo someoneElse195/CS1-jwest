@@ -1,9 +1,17 @@
 /*
 TODO: Write desc of program
 */
+#include <iostream>
+#include <string>
+#include <stdlib.h>
 
-int Main() {
+using namespace std;
 
+float addition(float one, float two);
+
+int main() {
+    float sum = addition(1,5);
+    cout << sum << endl;
     /*
     TODO: 1 Write func. that takes 2 numbers, adds them, and returns the sum. 
         Function must accept floats & integers.
@@ -33,7 +41,7 @@ int Main() {
 
     TODO: 10 opt. Write func. to find the larger of two numbers. Use the same numbers as inputted previously.
     */
-
+   return 0;
 }
 
 
