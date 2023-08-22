@@ -3,6 +3,7 @@ TODO: Write desc of program
 */
 
 int Main() {
+
     /*
     TODO: 1 Write func. that takes 2 numbers, adds them, and returns the sum. 
         Function must accept floats & integers.
@@ -33,4 +34,11 @@ int Main() {
     TODO: 10 opt. Write func. to find the larger of two numbers. Use the same numbers as inputted previously.
     */
 
+}
+
+
+float addition(float one, float two) {
+    float sum = one;
+    sum+=two;
+    return sum;
 }
