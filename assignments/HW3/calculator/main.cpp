@@ -16,6 +16,7 @@ void subtraction(float one, float two);
 void remainders(float one, float two);
 void powers(float one, float two);
 void squareRoot(float one, float two);
+void test();
 
 int main() {
     float numA;
@@ -24,20 +25,22 @@ int main() {
     cout << "Please input 2 numbers" << endl;
     cin >> numA >> numB;
     cout << endl;
-    
-    addition(numA, numB);
-    multiply(numA, numB);
-    divide(numA, numB);
-    subtraction(numA, numB);
-    remainders(numA, numB);
-    powers(numA, numB);
-    squareRoot(numA, numB);
- 
-    /*    
-    
-    TODO: 9 Write func. to test each previous function with 2 different test cases. 
-        Include sc of test results.
 
+    if(numA == -1 && numB == -1) {
+        cout << "Running tests: " << endl;
+        test();
+    } else {    
+        addition(numA, numB);
+        multiply(numA, numB);
+        divide(numA, numB);
+        subtraction(numA, numB);
+        remainders(numA, numB);
+        powers(numA, numB);
+        squareRoot(numA, numB);
+    }
+    
+    cout << endl << "Note: With large numbers the output may appear inf, especially with power." << endl << "This is due to the precision limits of the float data type." << endl;
+    /*    
     TODO: 10 opt. Write func. to find the larger of two numbers. Use the same numbers as inputted previously.
     */
    return 0;
@@ -78,8 +81,6 @@ void subtraction(float one, float two) {
 
 void remainders(float one, float two) {
     float remain = fmod(one, two);
-    cout << fixed << showpoint;
-    cout << setprecision(2);
     cout << "The remainder of your numbers is ";
     cout << remain << endl;
 }
@@ -88,7 +89,7 @@ void powers(float one, float two) {
     float power = pow(one, two);
     cout << fixed << showpoint;
     cout << setprecision(2);
-    cout << "The remainder of your numbers is ";
+    cout << "The power of your numbers is ";
     cout << power << endl;
 }
 
@@ -101,4 +102,33 @@ void squareRoot(float one, float two) {
     cout << root1 << endl;
     cout << "The square root of your second number is ";
     cout << root2 << endl;
+}
+
+void test() {
+    int min = 1;
+    int max = 200;
+
+    float numA = min + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(max-min)));
+    float numB = min + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(max-min)));
+    float numC = min + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(max-min)));
+    float numD = min + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(max-min)));
+
+    cout << endl << "Test one:" << endl;
+    addition(numA, numB);
+    multiply(numA, numB);
+    divide(numA, numB);
+    subtraction(numA, numB);
+    remainders(numA, numB);
+    powers(numA, numB);
+    squareRoot(numA, numB);
+
+    cout << endl << "Test two: " << endl;
+
+    addition(numC, numD);
+    multiply(numC, numD);
+    divide(numC, numD);
+    subtraction(numC, numD);
+    remainders(numC, numD);
+    powers(numC, numD);
+    squareRoot(numC, numD);
 }
