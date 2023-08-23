@@ -1,6 +1,10 @@
-/*
-TODO: Write desc of program
-*/
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+= This program is a simple calculator that takes -
+- in two numbers and outputs various computations=
+= using them. Written by amwest                  -
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
 #include <iostream>
 #include <string>
 #include <stdlib.h>
@@ -16,13 +20,14 @@ void subtraction(float one, float two);
 void remainders(float one, float two);
 void powers(float one, float two);
 void squareRoot(float one, float two);
+void largerOf(float one, float two);
 void test();
 
 int main() {
     float numA;
     float numB;
 
-    cout << "Please input 2 numbers" << endl;
+    cout << "Please input 2 numbers, to do a test run input -1 for both numbers." << endl;
     cin >> numA >> numB;
     cout << endl;
 
@@ -37,12 +42,10 @@ int main() {
         remainders(numA, numB);
         powers(numA, numB);
         squareRoot(numA, numB);
+        largerOf(numA, numB);
     }
     
     cout << endl << "Note: With large numbers the output may appear inf, especially with power." << endl << "This is due to the precision limits of the float data type." << endl;
-    /*    
-    TODO: 10 opt. Write func. to find the larger of two numbers. Use the same numbers as inputted previously.
-    */
    return 0;
 }
 
@@ -104,6 +107,16 @@ void squareRoot(float one, float two) {
     cout << root2 << endl;
 }
 
+void largerOf(float one, float two) {
+    if(one > two) {
+        cout << "The larger of your two numbers is: " << one << endl;
+    } else if(two > one) {
+        cout << "The larger of your two numbers is: " << two << endl;
+    } else {
+        cout << "Your two numbers are equal" << endl;
+    }
+}
+
 void test() {
     int min = 1;
     int max = 200;
@@ -113,6 +126,8 @@ void test() {
     float numC = min + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(max-min)));
     float numD = min + static_cast <float> (rand()) /( static_cast <float> (RAND_MAX/(max-min)));
 
+    cout << "The two random number sets are: (" << numA << ", " << numB << "), and (" << numC << ", " << numD << ")." << endl;
+
     cout << endl << "Test one:" << endl;
     addition(numA, numB);
     multiply(numA, numB);
@@ -121,6 +136,7 @@ void test() {
     remainders(numA, numB);
     powers(numA, numB);
     squareRoot(numA, numB);
+    largerOf(numA, numB);
 
     cout << endl << "Test two: " << endl;
 
@@ -131,4 +147,5 @@ void test() {
     remainders(numC, numD);
     powers(numC, numD);
     squareRoot(numC, numD);
+    largerOf(numC, numD);
 }
