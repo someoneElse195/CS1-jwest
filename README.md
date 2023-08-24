@@ -84,7 +84,21 @@ Homework for CSCI 111. All in C++
 |Desc.|Print out basic ASCII art and some info.|
 |Due Date|9-8-2023 |
 |Status|Done|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/|
+|Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/ascii|
+|Self Grade| 1/1|
+|Notes|ASCII art has a special place in my heart. Especially you Dwarf Fortress...|
+
+
+### Lab2
+
+
+|Name|Value|
+|-----------|-------------------------------------|
+|Name|Circle|
+|Desc.|Calculate area and circumference of a circle|
+|Due Date|9-19-2023 |
+|Status|Done|
+|Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/math/|
 |Self Grade| 1/1|
 |Notes|ASCII art has a special place in my heart. Especially you Dwarf Fortress...|
 
