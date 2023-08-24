@@ -55,7 +55,7 @@ Homework for CSCI 111. All in C++
 |-----------|-------------------------------------|
 |Name|Functions & Testing|
 |Desc.| Calculator program|
-|Due Date|9-25-2023 |
+|Due Date|10-06-2023 |
 |Status|Done|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/HW3/calculator|
 |Self Grade| 1/1|
@@ -67,7 +67,7 @@ Homework for CSCI 111. All in C++
 |-----------|-------------------------------------|
 |Name||
 |Desc.||
-|Due Date|9-25-2023 |
+|Due Date|10-13-2023 |
 |Status|Not started|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/|
 |Self Grade| 1/1|
