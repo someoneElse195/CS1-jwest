@@ -44,10 +44,10 @@ Homework for CSCI 111. All in C++
 |Name|Math & StdIO|
 |Desc.| Display area and peri of triangle.|
 |Due Date|9-25-2023 |
-|Status|In Progress|
+|Status|Done|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/math/triangle|
 |Self Grade| 1/1|
-|Notes|I hate geometry. Need Kattis problem|
+|Notes|I hate geometry. Kattis seems really cool, love the problems|
 
 ### HW3
 
@@ -56,10 +56,10 @@ Homework for CSCI 111. All in C++
 |Name|Functions & Testing|
 |Desc.| Calculator program|
 |Due Date|9-25-2023 |
-|Status|In Progress|
+|Status|Done|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/HW3/calculator|
 |Self Grade| 1/1|
-|Notes|Mmmmmmm algebra. Need Kattis problem|
+|Notes|Mmmmmmm algebra. Kattis one was a bit harder, not too bad though|
 
 ### HW4
 
