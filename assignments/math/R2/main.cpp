@@ -13,10 +13,9 @@ int main() {
     int S;
     int R1;
     
-    cout << "Please input 2 numbers, average and R1: ";
     cin >> R1 >> S;
     int R2 = findR2(R1, S);
-    cout << endl << "R2 = " << R2 << endl;
+    cout << endl << R2 << endl;
 
     return 0;
 }
