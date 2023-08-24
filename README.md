@@ -100,5 +100,5 @@ Homework for CSCI 111. All in C++
 |Status|Done|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/math/|
 |Self Grade| 1/1|
-|Notes|ASCII art has a special place in my heart. Especially you Dwarf Fortress...|
+|Notes|Still hate geometry...|
 
