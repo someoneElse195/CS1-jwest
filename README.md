@@ -2,6 +2,7 @@ Homework for CSCI 111. All in C++
 
 
 |Name  |Value|
+|-----------|-------------------------------------|
 |Course| CSCI111- CS1: Foundations of Computer Science|
 |Section| 002|
 |Semester| Fall 2023|
