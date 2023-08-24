@@ -15,14 +15,15 @@ Homework for CSCI 111. All in C++
 
 ### HW0
 
-|Name|Value|
-|Name|Github setup|
-|Desc.| Setting up computer and github|
-|Due Date|9-8-2023 |
-|Status|Done|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/hellocs|
-|Self Grade| 1/1|
-|Notes|AAAAAAAAAAAAA|
+|Name       |Value                                                                    |
+|-----------|-------------------------------------------------------------------------|
+|Name       |Github setup                                                             |
+|Desc.      | Setting up computer and github                                          |
+|Due Date   |9-8-2023                                                                 |
+|Status     |Done                                                                     |
+|Location   |https://github.com/someoneElse195/CS1-awest/tree/main/assignments/hellocs|
+|Self Grade | 1/1                                                                     |
+|Notes      |AAAAAAAAAAAAA                                                            |
 
 ### HW1
 
