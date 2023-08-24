@@ -10,9 +10,9 @@ Homework for CSCI 111. All in C++
 |Github Username| someoneElse195|
 |Repo| https://github.com/someoneElse195/CS1-awest|
 
-#Assignments
+# Assignments
 
-###HW0
+### HW0
 
 |Name|Value|
 |Name|Github setup|
@@ -23,7 +23,7 @@ Homework for CSCI 111. All in C++
 |Self Grade| 1/1|
 |Notes|AAAAAAAAAAAAA|
 
-###HW1
+### HW1
 
 |Name|Value|
 |-----------|-------------------------------------|
@@ -35,7 +35,7 @@ Homework for CSCI 111. All in C++
 |Self Grade| 1/1|
 |Notes| Want to code full game, seems fun.
 
-###HW2
+### HW2
 
 |Name|Value|
 |-----------|-------------------------------------|
@@ -47,7 +47,7 @@ Homework for CSCI 111. All in C++
 |Self Grade| 1/1|
 |Notes|I hate geometry. Need Kattis problem|
 
-###HW3
+### HW3
 
 |Name|Value|
 |-----------|-------------------------------------|
@@ -59,7 +59,7 @@ Homework for CSCI 111. All in C++
 |Self Grade| 1/1|
 |Notes|Mmmmmmm algebra. Need Kattis problem|
 
-###HW4
+### HW4
 
 |Name|Value|
 |-----------|-------------------------------------|
@@ -72,9 +72,9 @@ Homework for CSCI 111. All in C++
 |Notes||
 
 
-#Labs:
+# Labs:
 
-###Lab1
+### Lab1
 
 |Name|Value|
 |-----------|-------------------------------------|
