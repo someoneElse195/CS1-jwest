@@ -4,6 +4,7 @@
 \*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -22,7 +23,12 @@ int main() {
 }
 
 int bribes(int I, int A) {
-    int bribesNeeded = I*A;
+    float Ifloat = (float)I;
+
+    Ifloat -=0.99;
+    float IA = Ifloat*A;
+    
+    int bribesNeeded = ceil(IA);
 
     return bribesNeeded;
 }
