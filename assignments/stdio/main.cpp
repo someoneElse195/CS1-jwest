@@ -1,8 +1,8 @@
-/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\
 | Simple input output program,   |
 | prints out 7 stages of hangman.|
 | Written by amwest              |
-\=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+\*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #include <iostream>
 #include <string>

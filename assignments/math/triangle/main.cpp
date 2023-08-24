@@ -1,8 +1,8 @@
-/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*\
 | Program to compute area and perimeter of a triangle.            |
 | The program will also output whether the sides form a triangle. |
 | Written by amwest                                               |
-\-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-*/
+\*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #include <iostream>
 #include <cmath>
@@ -19,8 +19,8 @@ int main() {
     float sideB;
     float sideC;
 
-    /* While statement to loop back around if sides are determined to not be a triangle.           \
-    \  If sides form a triangle it will output data to console and break loop to terminate program. */
+    /* While statement to loop back around if sides are determined to not be a triangle.            *\
+    \* If sides form a triangle it will output data to console and break loop to terminate program. */
     
     while(true) {
 
