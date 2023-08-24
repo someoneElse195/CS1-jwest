@@ -26,6 +26,7 @@ Homework for CSCI 111. All in C++
 ###HW1
 
 |Name|Value|
+|-----------|-------------------------------------|
 |Name|StdIO|
 |Desc.| Output 7 stages of hangman to console.|
 |Due Date|9-11-2023 |
@@ -37,6 +38,7 @@ Homework for CSCI 111. All in C++
 ###HW2
 
 |Name|Value|
+|-----------|-------------------------------------|
 |Name|Math & StdIO|
 |Desc.| Display area and peri of triangle.|
 |Due Date|9-25-2023 |
@@ -48,6 +50,7 @@ Homework for CSCI 111. All in C++
 ###HW3
 
 |Name|Value|
+|-----------|-------------------------------------|
 |Name|Functions & Testing|
 |Desc.| Calculator program|
 |Due Date|9-25-2023 |
@@ -59,6 +62,7 @@ Homework for CSCI 111. All in C++
 ###HW4
 
 |Name|Value|
+|-----------|-------------------------------------|
 |Name||
 |Desc.||
 |Due Date|9-25-2023 |
@@ -73,6 +77,7 @@ Homework for CSCI 111. All in C++
 ###Lab1
 
 |Name|Value|
+|-----------|-------------------------------------|
 |Name|ASCII Art|
 |Desc.|Print out basic ASCII art and some info.|
 |Due Date|9-8-2023 |
