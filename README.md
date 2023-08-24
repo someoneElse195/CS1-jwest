@@ -83,7 +83,7 @@ Homework for CSCI 111. All in C++
 |Name|ASCII Art|
 |Desc.|Print out basic ASCII art and some info.|
 |Due Date|9-8-2023 |
-|Status|Not started|
+|Status|Done|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/|
 |Self Grade| 1/1|
 |Notes|ASCII art has a special place in my heart. Especially you Dwarf Fortress...|
