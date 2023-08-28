@@ -1,7 +1,6 @@
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*\
-| CLI that computes sum, product, max, min,   |
-| average, & odditty of any 5 given numbers.  |
-| Written by amwest.                          |
+| CLI that computes max, min, & odditty       |
+| of any 5 given numbers. Written by amwest   |
 \*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #include <iostream>
@@ -11,19 +10,49 @@ using namespace std;
 
 void max(float nums[5]);
 void min(float nums[5]);
-void average(float nums[5]);
 void oddity(float nums[5]);
 
 
 int main() {
     string name;
     float numbers [5];
-
-    cout << "Hello, please enter your name: " << endl; 
+    int selection = 0;
+    bool restart = true;
+    int R = 0;
+    
+    cout << "Hello, please enter your name: "; 
     cin >> name;
     cout << endl << "Welcome, " << name << "." << endl << "Please enter 5 numbers: ";
     cin >> numbers[0] >> numbers[1] >> numbers[2] >> numbers[3] >> numbers[4];
-    cout << endl;
+    while (restart) {
+        cout << endl << "Please enter a number, 1-3, to calculate max, min, and oddity of your numbers respectively: ";
+        cin >> selection;
+        cout << endl;
+        switch(selection) {
+            case 1: 
+                max(numbers);
+                break;
+            case 2:
+                min(numbers);
+                break;
+            case 3:
+                oddity(numbers);
+                break;
+            default:
+                cout << "That number is not on the range of 1-3. Try again: ";
+                cin >> selection;
+                continue;
+        }
+        cout << "Would you like to continue (enter 0) or end? (enter 1): ";
+        cin >> R;
+        if(R == 0) {
+            restart = true;
+        } else {
+            restart = false;
+            break;
+        }
+    }
+       
 }
 
 void max(float nums[5]) {
@@ -35,7 +64,7 @@ void max(float nums[5]) {
             continue;
         }
     }
-    cout << max << endl;
+    cout << "The maximum of your 5 numbers is " << max << "." << endl;
 
 }
 
@@ -48,14 +77,8 @@ void min(float nums[5]) {
             continue;
         }
     }
-    cout << min << endl;
+    cout << "The minimum of your 5 numbers is " << min << "." << endl;
 
-}
-
-void average(float nums[5]) {
-    float avg = (nums[0] + nums[1] + nums[2] + nums[3] + nums[4])/5.00;
-
-    cout << avg << endl;
 }
 
 void oddity(float nums[5]) {
