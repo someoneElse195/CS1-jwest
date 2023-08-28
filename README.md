@@ -19,7 +19,7 @@ Homework for CSCI 111. All in C++
 |-----------|-------------------------------------------------------------------------|
 |Name       |Github setup                                                             |
 |Desc.      | Setting up computer and github                                          |
-|Due Date   |9-8-2023                                                                 |
+|Due Date   |9-08-2023                                                                 |
 |Status     |Done                                                                     |
 |Location   |https://github.com/someoneElse195/CS1-awest/tree/main/assignments/hellocs|
 |Self Grade | 1/1                                                                     |
@@ -55,7 +55,7 @@ Homework for CSCI 111. All in C++
 |-----------|-------------------------------------|
 |Name|Functions & Testing|
 |Desc.| Calculator program|
-|Due Date|9-25-2023 |
+|Due Date|10-06-2023 |
 |Status|Done|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/HW3/calculator|
 |Self Grade| 1/1|
@@ -67,7 +67,7 @@ Homework for CSCI 111. All in C++
 |-----------|-------------------------------------|
 |Name||
 |Desc.||
-|Due Date|9-25-2023 |
+|Due Date|10-13-2023 |
 |Status|Not started|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/|
 |Self Grade| 1/1|
@@ -82,7 +82,7 @@ Homework for CSCI 111. All in C++
 |-----------|-------------------------------------|
 |Name|ASCII Art|
 |Desc.|Print out basic ASCII art and some info.|
-|Due Date|9-8-2023 |
+|Due Date|9-08-2023 |
 |Status|Done|
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/ascii|
 |Self Grade| 1/1|
@@ -101,4 +101,20 @@ Homework for CSCI 111. All in C++
 |Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/math/|
 |Self Grade| 1/1|
 |Notes|Still hate geometry...|
+
+
+
+### Lab3
+
+
+|Name|Value|
+|-----------|-------------------------------------|
+|Name|Functions|
+|Desc.|Distance between 2 points on a 2D plane|
+|Due Date|10-03-2023 |
+|Status|Not Started|
+|Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/|
+|Self Grade| 1/1|
+|Notes|Code snippet to start with does not exist in CPP-Fundamentals, at least not where it should if it does exist|
+
 
