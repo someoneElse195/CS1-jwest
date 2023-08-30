@@ -1,5 +1,7 @@
 # Homework for CSCI 111. All in C++
 
+## Ignore any mention of Kattis, and all kattis related files, I did the homeworks ahead and those have since been removed from instructions. Keeping it all for my own sake
+
 |Name           | Value                                         |
 |---------------|-----------------------------------------------|
 |Course         | CSCI111- CS1: Foundations of Computer Science |
