@@ -1,7 +1,7 @@
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*\
 | The program requests a radius of a circle to then   |
 | calculate the area and circumference of said circle |
-| Written by amwest                                   |
+| Updated by amwest                                   |
 \*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #include <iostream>
