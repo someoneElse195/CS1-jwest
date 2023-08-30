@@ -49,10 +49,11 @@ void clearScreen() {
 int main() {
     int x1, y1, x2, y2; // variables to store two points (x1, y1) and (x2, y2)
     char ch;
+    char end = 'n';
 
-    //FIXME-bonus - 10 bonus points - add loop until user wants to quit
+    //FIXME-bonus - 10 bonus points - add loop until user wants to quit FIXED
     // the loop will execute the following block of code
-    {
+    while(true) {
         clearScreen();
         cout << "Program calculates distance between 2 points on a 2D coordinate." << endl;
         cout << "Enter a point in the form (x, y): ";
@@ -70,6 +71,14 @@ int main() {
         double distance = findDistance(x1,y1,x2,y2);
         //FIXME6 – Using printf function display the returned distance with proper description FIXED
         printf("Distance between (%d, %d) and (%d, %d) = %f\n", x1, y1, x2, y2, distance);
+
+        cout << "Would you like to continue? y/n: ";
+        cin >> end;
+        if(end == 'y') {
+            continue;
+        } else {
+            break;
+        }
     }
 
     cin.ignore(1000, '\n');
