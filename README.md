@@ -1,5 +1,4 @@
-Homework for CSCI 111. All in C++
-
+# Homework for CSCI 111. All in C++
 
 |Name  |Value|
 |-----------|-------------------------------------|
@@ -9,9 +8,9 @@ Homework for CSCI 111. All in C++
 |Student| Ashton West|
 |Mav Username| amwest|
 |Github Username| someoneElse195|
-|Repo| https://github.com/someoneElse195/CS1-awest|
+|Repo| <https://github.com/someoneElse195/CS1-awest>|
 
-# Assignments
+## Assignments
 
 ### HW0
 
@@ -19,9 +18,9 @@ Homework for CSCI 111. All in C++
 |-----------|-------------------------------------------------------------------------|
 |Name       |Github setup                                                             |
 |Desc.      | Setting up computer and github                                          |
-|Due Date   |9-08-2023                                                                 |
+|Due Date   |9-08-2023                                                                |
 |Status     |Done                                                                     |
-|Location   |https://github.com/someoneElse195/CS1-awest/tree/main/assignments/hellocs|
+|Location   |<https://github.com/someoneElse195/CS1-awest/tree/main/assignments/hellocs>|
 |Self Grade | 1/1                                                                     |
 |Notes      |AAAAAAAAAAAAA                                                            |
 
@@ -33,7 +32,7 @@ Homework for CSCI 111. All in C++
 |Desc.| Output 7 stages of hangman to console.|
 |Due Date|9-11-2023 |
 |Status|Done|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/stdio|
+|Location|<https://github.com/someoneElse195/CS1-awest/tree/main/assignments/stdio>|
 |Self Grade| 1/1|
 |Notes| Want to code full game, seems fun.
 
@@ -45,7 +44,7 @@ Homework for CSCI 111. All in C++
 |Desc.| Display area and peri of triangle.|
 |Due Date|9-25-2023 |
 |Status|Done|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/math/triangle|
+|Location|<https://github.com/someoneElse195/CS1-awest/tree/main/assignments/math/triangle>|
 |Self Grade| 1/1|
 |Notes|I hate geometry. Kattis seems really cool, love the problems|
 
@@ -57,24 +56,23 @@ Homework for CSCI 111. All in C++
 |Desc.| Calculator program|
 |Due Date|10-06-2023 |
 |Status|Done|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/HW3/calculator|
+|Location|<https://github.com/someoneElse195/CS1-awest/tree/main/assignments/HW3/calculator>|
 |Self Grade| 1/1|
 |Notes|Mmmmmmm algebra. Kattis one was a bit harder, not too bad though|
 
 ### HW4
 
 |Name|Value|
-|-----------|-------------------------------------|
-|Name||
-|Desc.||
-|Due Date|10-13-2023 |
-|Status|Not started|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/assignments/|
+|-----------|-------------------------------------------|
+|Name       |Conditionals                               |
+|Desc.      |Computes min, max, oddity, etc of 5 numbers|
+|Due Date   |10-13-2023                                 |
+|Status|Done|
+|Location|<https://github.com/someoneElse195/CS1-awest/tree/main/assignments/conditionals/menu/>|
 |Self Grade| 1/1|
-|Notes||
+|Notes|Now I want to make a full CLI menu that actually looks cool eventually.|
 
-
-# Labs:
+## Labs
 
 ### Lab1
 
@@ -84,13 +82,11 @@ Homework for CSCI 111. All in C++
 |Desc.|Print out basic ASCII art and some info.|
 |Due Date|9-08-2023 |
 |Status|Done|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/ascii|
+|Location|<https://github.com/someoneElse195/CS1-awest/tree/main/labs/ascii>|
 |Self Grade| 1/1|
 |Notes|ASCII art has a special place in my heart. Especially you Dwarf Fortress...|
 
-
 ### Lab2
-
 
 |Name|Value|
 |-----------|-------------------------------------|
@@ -98,23 +94,18 @@ Homework for CSCI 111. All in C++
 |Desc.|Calculate area and circumference of a circle|
 |Due Date|9-19-2023 |
 |Status|Done|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/math/|
+|Location|<https://github.com/someoneElse195/CS1-awest/tree/main/labs/math/>|
 |Self Grade| 1/1|
 |Notes|Still hate geometry...|
 
-
-
 ### Lab3
-
 
 |Name|Value|
 |-----------|-------------------------------------|
 |Name|Functions|
 |Desc.|Distance between 2 points on a 2D plane|
 |Due Date|10-03-2023 |
-|Status|Not Started|
-|Location|https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/|
+|Status|Done|
+|Location|<https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/>|
 |Self Grade| 1/1|
-|Notes|Code snippet to start with does not exist in CPP-Fundamentals, at least not where it should if it does exist|
-
-
+|Notes|Coords are ok but too close to geometry, which... I hate|
