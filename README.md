@@ -67,7 +67,7 @@
 |Name       | Conditionals                                                                          |
 |Desc.      | Computes min, max, oddity, etc of 5 numbers                                           |
 |Due Date   | 10-13-2023                                                                            |
-|Status     | Done                                                                                  |
+|Status     | ????                                                                                  |
 |Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/assignments/conditionals/menu/>|
 |Self Grade | 1/1                                                                                   |
 |Notes      | Now I want to make a full CLI menu that actually looks cool eventually.               |
