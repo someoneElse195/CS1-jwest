@@ -1,5 +1,5 @@
 /*=-=-=-=-=-=-=-=-*\
-|Functions Lab     |
+|Functions Lab 3   |
 |Updated By: amwest|
 |CSCI 111          |
 |Date: 08/30/23    |
@@ -49,7 +49,7 @@ void clearScreen() {
 int main() {
     int x1, y1, x2, y2; // variables to store two points (x1, y1) and (x2, y2)
     char ch;
-    char end = 'n';
+    char stay = 'n';
 
     //FIXME-bonus - 10 bonus points - add loop until user wants to quit FIXED
     // the loop will execute the following block of code
@@ -73,8 +73,8 @@ int main() {
         printf("Distance between (%d, %d) and (%d, %d) = %f\n", x1, y1, x2, y2, distance);
 
         cout << "Would you like to continue? y/n: ";
-        cin >> end;
-        if(end == 'y') {
+        cin >> stay;
+        if(stay == 'y') {
             continue;
         } else {
             break;
