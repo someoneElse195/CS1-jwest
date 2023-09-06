@@ -108,7 +108,7 @@
 |Desc.      | Distance between 2 points on a 2D plane                                |
 |Due Date   | 10-03-2023                                                             |
 |Status     | Done                                                                   |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/>|
+|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/points/>|
 |Self Grade | 1/1                                                                    |
 |Notes      | Coords are ok but too close to geometry, which... I hate               |
 
