@@ -157,12 +157,6 @@ bool restart() {
     }
 }
 
-//Function to keep track of wins, losses, and times played.
-void statistics(bool win, int timesWon, int timesLost, int timesPlayed) {
-
-}
-
-
 //Function to test the core game functions to ensure it will work with all possible inputs.
 void unittest() {
 
