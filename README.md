@@ -102,12 +102,24 @@
 
 ### Lab3
 
+|Name       | Value                                                                         |
+|-----------|-------------------------------------------------------------------------------|
+|Name       | Functions                                                                     |
+|Desc.      | Distance between 2 points on a 2D plane                                       |
+|Due Date   | 10-03-2023                                                                    |
+|Status     | Done                                                                          |
+|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/points/>|
+|Self Grade | 1/1                                                                           |
+|Notes      | Coords are ok but too close to geometry, which... I hate                      |
+
+### Lab4
+
 |Name       | Value                                                                  |
 |-----------|------------------------------------------------------------------------|
-|Name       | Functions                                                              |
-|Desc.      | Distance between 2 points on a 2D plane                                |
-|Due Date   | 10-03-2023                                                             |
+|Name       | Conditionals                                                           |
+|Desc.      | Finds statistical values of two numbers                                |
+|Due Date   | 10-11-2023                                                             |
 |Status     | Done                                                                   |
 |Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/>|
 |Self Grade | 1/1                                                                    |
-|Notes      | Coords are ok but too close to geometry, which... I hate               |
+|Notes      | CLIs are really fun in general, I want to make my own full CLI program |
