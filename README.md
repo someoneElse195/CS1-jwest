@@ -74,6 +74,19 @@
 |Self Grade | 1/1                                                                                   |
 |Notes      | Now I want to make a full CLI menu that actually looks cool eventually.               |
 
+### HW5
+
+|Name       | Value                                                                                 |
+|-----------|---------------------------------------------------------------------------------------|
+|Name       | Guess the Number                                                                      |
+|Desc.      | Guess the number game in the range 1-20                                               |
+|Due Date   | 10-25-2023                                                                            |
+|Status     | Done                                                                                  |
+|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/assignments/conditionals/menu/>|
+|Self Grade | 1/1                                                                                   |
+|Notes      | Well known games like this are always fun to make because you KNOW how it should work |
+|           | but you have to convert that into actual working code.                                |
+
 ## Labs
 
 ### Lab1
