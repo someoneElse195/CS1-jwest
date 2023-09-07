@@ -38,21 +38,15 @@ int randomNumber();
 int readNumber();
 int checkGuess(int userNum, int randNum);
 bool game();
-void win();
-void lose();
-void statistics(bool win);
 bool restart();
 void unittest();
-
-//Declaring variables that will be used in multiple functions.
-int randNum;
-int timesPlayed = 0;
-int wins = 0;
-int losses = 0;
 
 int main() {
     string name = "Null";
     bool win = false;
+    int timesPlayed = 0;
+    int timesWon = 0;
+    int timesLost = 0;
     float percentWon;
     float percentLost;
    
@@ -63,7 +57,12 @@ int main() {
     //Loop to keep track of wins, update statistics, check if restarting, and most importantly call the game function.
     while(true) {
         win = game();
-        statistics(win);
+        if(win) {
+            timesWon+=1;
+        } else {
+            timesLost+=1;
+        }
+        timesPlayed+=1;
         if(restart()) {
             continue;
         } else {
@@ -71,8 +70,8 @@ int main() {
         }
     }
     //Calculate and output times won and times lost. 
-    percentWon = 1.0* wins/timesPlayed * 100;
-    percentLost = 1.0* losses/timesPlayed * 100;
+    percentWon = 1.0* timesWon/timesPlayed * 100;
+    percentLost = 1.0* timesLost/timesPlayed * 100;
 
     printf("\nYou played %d times, won %.2f%% of the games, and lost %.2f%% of the games. Thanks for playing!\n\n", timesPlayed, percentWon, percentLost);
 
@@ -119,11 +118,11 @@ int checkGuess(int userNum, int randNum) {
 //The function to actually play the game.
 bool game() {
     int tries = 0;
-    randNum = randomNumber(); 
+    int randNum = randomNumber(); 
     //Loop to keep the game going until either won or guesses = 6. 
     while(true) {
         if(tries == 6) {
-            lose();
+            cout << "You guessed 6 times, game over. The number was " << randNum << ". Try again!\n\n";
             return false;
         }
         int guess = readNumber();
@@ -133,7 +132,7 @@ bool game() {
         //Switch to check if number is =, <, or > using checkGuess.
         switch(check) {
             case 0:
-                win();
+                cout << "You won! Congratulations you win a brand new car!!!!\n\n";
                 return true;
             case -1:
                 cout << "Your guess is lower than the number.\n";
@@ -144,15 +143,6 @@ bool game() {
         }
         
     }
-}
-
-//Not exactly necessary but a void to print out win and loss conditions along with outputting the randNum if lost.
-void win() {
-    cout << "You won! Congratulations you win a brand new car!!!!\n\n";
-}
-
-void lose() {
-    cout << "You guessed 6 times, game over. The number was " << randNum << ". Try again!\n\n";
 }
 
 //Function to check if user wants to continue playing the game.
@@ -168,13 +158,8 @@ bool restart() {
 }
 
 //Function to keep track of wins, losses, and times played.
-void statistics(bool win) {
-    if(win) {
-        wins+=1;
-    } else {
-        losses+=1;
-    }
-    timesPlayed+=1;
+void statistics(bool win, int timesWon, int timesLost, int timesPlayed) {
+
 }
 
 
