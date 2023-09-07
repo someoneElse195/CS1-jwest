@@ -30,6 +30,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <cassert>
 
 using namespace std;
 
@@ -41,7 +42,13 @@ bool game();
 bool restart();
 void unittest();
 
-int main() {
+int main(int args, char* argv[]) {
+
+    if(args > 1 && string(argv[1]) == "test") {
+        unittest();
+        return 0;
+    }
+
     string name = "Null";
     bool win = false;
     int timesPlayed = 0;
@@ -157,9 +164,12 @@ bool restart() {
     }
 }
 
-//Function to test the core game functions to ensure it will work with all possible inputs.
+//Function to test the checkGuess function.
 void unittest() {
-
+    assert(checkGuess(5, 5) == 0);
+    assert(checkGuess(5, 2) == 2);
+    assert(checkGuess(5, 10) == -1);
+    cout << "\nAll test cases passed\n\n";
 }
 
 
