@@ -66,4 +66,4 @@ void solve() {
     getline(cin, line);
 
     cout << answer(line) << endl;
-}
+} 
