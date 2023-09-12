@@ -136,3 +136,51 @@
 |Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/>|
 |Self Grade | 1/1                                                                    |
 |Notes      | CLIs are really fun in general, I want to make my own full CLI program |
+
+### Lab5
+
+|Name       | Value                                                                  |
+|-----------|------------------------------------------------------------------------|
+|Name       | Loops                                                                  |
+|Desc.      | Prints out dynamically sized shapes using loops.                       |
+|Due Date   | 10-25-2023                                                             |
+|Status     | Done                                                                   |
+|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/loops/>    |
+|Self Grade | 1/1                                                                    |
+|Notes      |                                                                        |
+
+### Lab6
+
+|Name       | Value                                                                  |
+|-----------|------------------------------------------------------------------------|
+|Name       | Pointers and Namespace                                                 |
+|Desc.      | Prints out sum, product, difference, and greater of 2 numbers          |
+|Due Date   | 10-27-2023                                                             |
+|Status     | Done                                                                   |
+|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/pointers/> |
+|Self Grade | 1/1                                                                    |
+|Notes      |                                                                        |
+
+### Lab7
+
+|Name       | Value                                                                  |
+|-----------|------------------------------------------------------------------------|
+|Name       | String                                                                 |
+|Desc.      | Decides whether a string contains 'ss' and prints hiss or no hiss respectively.|
+|Due Date   | 11-2-2023                                                              |
+|Status     | Done                                                                   |
+|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/strings/>  |
+|Self Grade | 1/1                                                                    |
+|Notes      |                                                                        |
+
+### Lab8
+
+|Name       | Value                                                                  |
+|-----------|------------------------------------------------------------------------|
+|Name       | Array                                                                  |
+|Desc.      | Sorts numbers by size in a user defined array                          |
+|Due Date   | 11-10-2023                                                             |
+|Status     | Done                                                                   |
+|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/array/>    |
+|Self Grade | 1/1                                                                    |
+|Notes      |                                                                        |
