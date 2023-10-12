@@ -28,4 +28,4 @@ clean:
 # FIXME #fixed#
 # add a rule to run the program
 run:
-	./main
+	./$(PROGRAM)
