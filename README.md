@@ -7,8 +7,8 @@
 |Course         | CSCI111- CS1: Foundations of Computer Science |
 |Section        | 002                                           |
 |Semester       | Fall 2023                                     |
-|Student        | Ashton West                                   |
-|Mav Username   | amwest                                        |
+|Student        | June West                                     |
+|Mav Username   | jmwest                                        |
 |Github Username| someoneElse195                                |
 |Repo           | <https://github.com/someoneElse195/CS1-awest> |
 
