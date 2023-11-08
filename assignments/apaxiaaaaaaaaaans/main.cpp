@@ -1,3 +1,12 @@
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\
+|                                                  |
+|     Code to solve kattis problem "Apaxiaaans"    |
+|    https://open.kattis.com/problems/apaxiaaans   |
+|               Written by June West               |
+|                                                  |
+\*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+
 #include <iostream>
 #include <cassert>
 
