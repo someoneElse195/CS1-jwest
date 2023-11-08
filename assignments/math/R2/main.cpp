@@ -1,6 +1,6 @@
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-*\
 | Solving Kattis R2 problem.  |
-| Written by amwest           |
+| Written by June West        |
 \*-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 #include <iostream>

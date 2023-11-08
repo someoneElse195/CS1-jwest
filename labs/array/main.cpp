@@ -1,6 +1,6 @@
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\
 |                                 Array Lab (8)                                        |
-|                                  By: amwest                                          |
+|                                 By: June West                                        |
 |                                 Date: 9/12/23                                        |
 |                                                                                      |
 |          The lab demostrates the use of array and some operations on array.          |

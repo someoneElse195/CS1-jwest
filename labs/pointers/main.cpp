@@ -1,6 +1,6 @@
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*\  
 |                         Pointers, enum type and namespace lab (6)                       |
-|                                   Updated by: amwest                                    |
+|                                 Updated by: June West                                   |
 |                                      Date: 9/11/23                                      |
 |      Program demonstrates the use of preprocessor directive, namespace, enum type,      |
 |                                      and pointers.                                      |

@@ -2,7 +2,7 @@
 | Guess the number game. Tracks statistics                |
 | of times played, amount won, and amount lost.           |
 | The game will continue until the user chooses to end.   |
-| Written by amwest.                                      |
+| Written by June West.                                   |
 \*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 

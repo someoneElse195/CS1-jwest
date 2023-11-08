@@ -1,7 +1,7 @@
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*\
 | This program is a simple calculator that takes |
 | in two numbers and outputs various computations|
-| using them. Written by amwest                  |
+| using them. Written by June West               |
 \*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 

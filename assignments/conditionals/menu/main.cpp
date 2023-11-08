@@ -1,6 +1,6 @@
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*\
 | CLI that computes max, min, & odditty       |
-| of any 5 given numbers. Written by amwest   |
+| of any 5 given numbers. Written by June W   |
 \*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #include <iostream>

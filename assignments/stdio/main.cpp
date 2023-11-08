@@ -1,7 +1,7 @@
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\
 | Simple input output program,   |
 | prints out 7 stages of hangman.|
-| Written by amwest              |
+| Written by June West           |
 \*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #include <iostream>

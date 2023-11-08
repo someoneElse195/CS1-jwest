@@ -5,7 +5,7 @@
 | given numbers using user-defined functions.                     |
 | A menu-driven program that demonstrates user-defined functions, |
 | automated testing conditional statements and loop.              |
-| Written by amwest                                               |
+| Written by June West                                            |
 \*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #include <iostream>

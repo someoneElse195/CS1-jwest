@@ -1,6 +1,6 @@
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*\
 | Solving Kattis Faktor problem.  |
-| Written by amwest               |
+| Written by June West            |
 \*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 #include <iostream>
