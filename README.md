@@ -96,7 +96,7 @@
 |Desc.      | Find any cases of multiple of the same char and delete all but one.                   |
 |Due Date   | 10-25-2023                                                                            |
 |Status     | Done                                                                                  |
-|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/conditionals/menu/>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/apaxiaaaaaaaaaans> |
 |Self Grade | 1/1                                                                                   |
 |Notes      | These kattis problems are really good. I have done a few others in my spare time too. |
 
@@ -108,7 +108,7 @@
 |Desc.      | Best to just read the kattis description. <https://open.kattis.com/problems/fallingapart>|
 |Due Date   | 10-25-2023                                                                            |
 |Status     | Done                                                                                  |
-|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/conditionals/menu/>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/array/>            |
 |Self Grade | 1/1                                                                                   |
 |Notes      | Made a mistake inputting the two arrays in the wrong order for the print function.    |
 |           | Took me forever to fix it.                                                            |
