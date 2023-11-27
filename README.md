@@ -10,7 +10,7 @@
 |Student        | June West                                     |
 |Mav Username   | jmwest                                        |
 |Github Username| someoneElse195                                |
-|Repo           | <https://github.com/someoneElse195/CS1-awest> |
+|Repo           | <https://github.com/someoneElse195/CS1-jwest> |
 
 ## Assignments
 
@@ -22,7 +22,7 @@
 |Desc.      | Setting up computer and github                                             |
 |Due Date   | 9-08-2023                                                                  |
 |Status     | Done                                                                       |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/assignments/hellocs>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/hellocs>|
 |Self Grade | 1/1                                                                        |
 |Notes      | AAAAAAAAAAAAA                                                              |
 
@@ -34,7 +34,7 @@
 |Desc.      | Output 7 stages of hangman to console.                                     |
 |Due Date   | 9-11-2023                                                                  |
 |Status     | Done                                                                       |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/assignments/stdio>  |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/stdio>  |
 |Self Grade | 1/1                                                                        |
 |Notes      | Want to code full game, seems fun.                                         |
 
@@ -46,7 +46,7 @@
 |Desc.      | Display area and peri of triangle.                                                 |
 |Due Date   | 9-25-2023                                                                          |
 |Status     | Done                                                                               |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/assignments/math/triangle>  |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/math/triangle>  |
 |Self Grade | 1/1                                                                                |
 |Notes      | I hate geometry. Kattis seems really cool, love the problems                       |
 
@@ -58,7 +58,7 @@
 |Desc.      | Calculator program                                                                |
 |Due Date   | 10-06-2023                                                                        |
 |Status     | Done                                                                              |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/assignments/HW3/calculator>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/HW3/calculator>|
 |Self Grade | 1/1                                                                               |
 |Notes      | Mmmmmmm algebra. Kattis one was a bit harder, not too bad though                  |
 
@@ -70,7 +70,7 @@
 |Desc.      | Computes min, max, oddity, etc of 5 numbers                                           |
 |Due Date   | 10-13-2023                                                                            |
 |Status     | Done                                                                                  |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/assignments/conditionals/menu/>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/conditionals/menu/>|
 |Self Grade | 1/1                                                                                   |
 |Notes      | Now I want to make a full CLI menu that actually looks cool eventually.               |
 
@@ -82,10 +82,36 @@
 |Desc.      | Guess the number game in the range 1-20                                               |
 |Due Date   | 10-25-2023                                                                            |
 |Status     | Done                                                                                  |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/assignments/conditionals/menu/>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/conditionals/menu/>|
 |Self Grade | 1/1                                                                                   |
 |Notes      | Well known games like this are always fun to make because you KNOW how it should work |
 |           | but you have to convert that into actual working code.                                |
+
+
+### HW6
+
+|Name       | Value                                                                                 |
+|-----------|---------------------------------------------------------------------------------------|
+|Name       | Apaxiaaaaaaaaaans                                                                     |
+|Desc.      | Find any cases of multiple of the same char and delete all but one.                   |
+|Due Date   | 10-30-2023                                                                            |
+|Status     | Done                                                                                  |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/apaxiaaaaaaaaaans> |
+|Self Grade | 1/1                                                                                   |
+|Notes      | These kattis problems are really good. I have done a few others in my spare time too. |
+
+### HW7
+
+|Name       | Value                                                                                 |
+|-----------|---------------------------------------------------------------------------------------|
+|Name       | Falling Apart                                                                         |
+|Desc.      | Best to just read the kattis description. <https://open.kattis.com/problems/fallingapart>|
+|Due Date   | 11-13-2023                                                                            |
+|Status     | Done                                                                                  |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/array/>            |
+|Self Grade | 1/1                                                                                   |
+|Notes      | Made a mistake inputting the two arrays in the wrong order for the print function.    |
+|           | Took me forever to fix it.                                                            |
 
 ## Labs
 
@@ -97,7 +123,7 @@
 |Desc.      | Print out basic ASCII art and some info.                                  |
 |Due Date   | 9-08-2023                                                                 |
 |Status     | Done                                                                      |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/ascii>        |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/ascii>        |
 |Self Grade | 1/1                                                                       |
 |Notes      | ASCII art has a special place in my heart. Especially you Dwarf Fortress..|
 
@@ -109,7 +135,7 @@
 |Desc.      | Calculate area and circumference of a circle                      |
 |Due Date   | 9-19-2023                                                         |
 |Status     | Done                                                              |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/math/>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/math/>|
 |Self Grade | 1/1                                                               |
 |Notes      | Still hate geometry...                                            |
 
@@ -121,7 +147,7 @@
 |Desc.      | Distance between 2 points on a 2D plane                                       |
 |Due Date   | 10-03-2023                                                                    |
 |Status     | Done                                                                          |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/points/>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/functions/points/>|
 |Self Grade | 1/1                                                                           |
 |Notes      | Coords are ok but too close to geometry, which... I hate                      |
 
@@ -133,7 +159,7 @@
 |Desc.      | Finds statistical values of two numbers                                |
 |Due Date   | 10-11-2023                                                             |
 |Status     | Done                                                                   |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/functions/>|
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/functions/>|
 |Self Grade | 1/1                                                                    |
 |Notes      | CLIs are really fun in general, I want to make my own full CLI program |
 
@@ -145,7 +171,7 @@
 |Desc.      | Prints out dynamically sized shapes using loops.                       |
 |Due Date   | 10-25-2023                                                             |
 |Status     | Done                                                                   |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/loops/>    |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/loops/>    |
 |Self Grade | 1/1                                                                    |
 |Notes      |                                                                        |
 
@@ -157,7 +183,7 @@
 |Desc.      | Prints out sum, product, difference, and greater of 2 numbers          |
 |Due Date   | 10-27-2023                                                             |
 |Status     | Done                                                                   |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/pointers/> |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/pointers/> |
 |Self Grade | 1/1                                                                    |
 |Notes      |                                                                        |
 
@@ -169,7 +195,7 @@
 |Desc.      | Decides whether a string contains 'ss' and prints hiss or no hiss respectively.|
 |Due Date   | 11-2-2023                                                              |
 |Status     | Done                                                                   |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/strings/>  |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/strings/>  |
 |Self Grade | 1/1                                                                    |
 |Notes      |                                                                        |
 
@@ -181,6 +207,6 @@
 |Desc.      | Sorts numbers by size in a user defined array                          |
 |Due Date   | 11-10-2023                                                             |
 |Status     | Done                                                                   |
-|Location   | <https://github.com/someoneElse195/CS1-awest/tree/main/labs/array/>    |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/array/>    |
 |Self Grade | 1/1                                                                    |
 |Notes      |                                                                        |
