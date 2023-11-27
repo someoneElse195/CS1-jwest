@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/gtkmm-3.0"
+                "${WXWIN}/**",
+                "C:/libs/wxWidgets-3.2.3/**"
             ],
             "defines": [],
             "cStandard": "c17",
