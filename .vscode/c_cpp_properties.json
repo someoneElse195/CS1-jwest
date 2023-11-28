@@ -4,8 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${WXWIN}/**",
-                "C:/libs/wxWidgets-3.2.3/**"
+                "C:/libs/wxWidgets-3.2.4/include/**"
             ],
             "defines": [],
             "cStandard": "c17",

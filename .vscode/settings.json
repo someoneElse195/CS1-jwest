@@ -6,5 +6,6 @@
         "*.tcc": "cpp",
         "string_view": "cpp"
     },
-    "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe"
+    "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+    "C_Cpp.errorSquiggles": "enabled"
 }
