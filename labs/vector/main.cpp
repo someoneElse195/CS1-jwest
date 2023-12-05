@@ -1,8 +1,8 @@
 /*
     CS1 - Vector Lab
 
-    Updated by: AAAAAAAAA
-    Date: AAAAAAAAA
+    Updated by: June West
+    Date: 11-17-23
 
     Program: Number system converter  
 
@@ -57,11 +57,17 @@ int main()
         switch(choice) {
             case 1:
                 // FIXME3
-                cout << "FIXME\n";
+                cout << "Enter a positive decimal number: ";
+                cin >> decimalNum;
+                binary = decToBin(decimalNum);
+                printf("(%llu) base 10 = (%s) base 2\n", decimalNum, binary.c_str());
                 break;
             case 2:
                 // FIXME4
-                cout << "FIXME\n";
+                cout << "Enter a positive binary number: ";
+                cin >> binary;
+                decimalNum = binToDec(binary);
+                printf("(%s) base 2 = (%llu) base 10\n", binary.c_str(), decimalNum);
                 break;
             case 3:
                 cout << "Enter a positive decimal number: ";
@@ -93,21 +99,48 @@ int main()
 string decToBin(llu num) {
     // FIXME5 - use algorithm step in Ch03-StdInputOutput chapter
     // or use hint from decToOct function
-    
+
     vector<int> Bin;
+    int divisor = 2; // base 2
+    llu quotient = num;
+    int remainder;
+    // step 1 and 2
+    cout << "quotient = " << quotient << endl;
+    while (quotient != 0) {
+        remainder = quotient%divisor;
+        quotient = quotient/divisor;
+        Bin.push_back(remainder);
+    }
     
+    string ans = "";
+    while(!Bin.empty()) {
+        // collect from the last element
+        ans += to_string(Bin.back());
+        // remove the last element
+        Bin.pop_back();
+    }
 
 
-    return to_string(num);
+    return ans;
 }
 
 llu binToDec(string binaryNumber)
 {
     // FIXME6 - use algorithm described in Ch03-StdInputOutput chapter
     // or use hints from binToOct function
+
+    llu ans = 0;
+    int exp;
+    // go from last digit to the first digit of octal number
+    for(int i = binaryNumber.size()-1; i>=0; i--) {
+        exp = binaryNumber.size()-1 - i;
+        int digit = int(binaryNumber[i]) - int('0');
+        // step 1 and 2
+        ans += digit*pow(2, exp);
+    }
     
 
-    return 0;
+    return ans;
 }
 
 string decToOct(llu num)

@@ -8,7 +8,7 @@ CXX = g++
 CXXFLAGS = -c -g -Wall -std=c++17
 
 # the build target executable file; .exe is not required
-PROGRAM = main.exe
+PROGRAM = main
 
 # list .cpp files separated by space
 CPPFILES = main.cpp
@@ -24,4 +24,7 @@ all:
 # delete object and binary files
 clean:
 	rm -f $(PROGRAM) *.o
+
+run: 
+	./$(PROGRAM)
 	

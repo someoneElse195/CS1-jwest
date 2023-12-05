@@ -210,3 +210,16 @@
 |Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/array/>    |
 |Self Grade | 1/1                                                                    |
 |Notes      |                                                                        |
+
+### Lab9
+
+|Name       | Value                                                                  |
+|-----------|------------------------------------------------------------------------|
+|Name       | Vector                                                                 |
+|Desc.      | Converts binary to decimal to binary                                   |
+|Due Date   | 11-17-2023                                                             |
+|Status     | Done                                                                   |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/vector/>   |
+|Self Grade | 1/1                                                                    |
+|Notes      |                                                                        |
+
