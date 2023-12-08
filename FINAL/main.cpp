@@ -1,6 +1,19 @@
 #include <wx/wx.h>
 #include <wx/sizer.h>
 
+enum
+{
+    BUTTONID00 = wxID_HIGHEST + 1,
+    BUTTONID01 = wxID_HIGHEST + 2,
+    BUTTONID02 = wxID_HIGHEST + 3,
+    BUTTONID10 = wxID_HIGHEST + 4,
+    BUTTONID11 = wxID_HIGHEST + 5,
+    BUTTONID12 = wxID_HIGHEST + 6,
+    BUTTONID20 = wxID_HIGHEST + 7,
+    BUTTONID21 = wxID_HIGHEST + 8,
+    BUTTONID22 = wxID_HIGHEST + 9
+
+};
 
 
 
@@ -21,15 +34,7 @@ public:
         {-1,-1,-1},
         {-1,-1,-1}
     };
-    
-    wxButton spaceButton00(wxWindow parent,
-    wxWindowID wxID_HELP, 
-    wxString label, 
-    wxPoint pos, 
-    wxSize size, 
-    long style, 
-    wxValidator validator, 
-    wxString name);
+
 
 
     DECLARE_EVENT_TABLE()
@@ -40,10 +45,17 @@ class MyApp: public wxApp
     bool OnInit();
 
 
-
     BasicDrawPane *drawPane;
 public:
-        
+    wxButton spaceButton00;
+    wxButton spaceButton01;
+    wxButton spaceButton02;
+    wxButton spaceButton10;
+    wxButton spaceButton11;
+    wxButton spaceButton12;
+    wxButton spaceButton20;
+    wxButton spaceButton21;
+    wxButton spaceButton22;        
 };
 
 IMPLEMENT_APP(MyApp)
@@ -52,6 +64,8 @@ class MyFrame : public wxFrame
 {
 public:
     MyFrame();
+
+    
  
 private:
 
@@ -68,7 +82,109 @@ bool MyApp::OnInit()
     drawPane = new BasicDrawPane( (wxFrame*) frame );
     frame->Show(true);   
 
+    
 
+
+    spaceButton00.Create 
+    (
+        frame,
+        BUTTONID00, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON00")
+    );
+    spaceButton01.Create
+    (
+        frame,
+        BUTTONID01, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON01")
+    );
+    spaceButton02.Create
+    (
+        frame,
+        BUTTONID02, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON02")
+    );
+    spaceButton10.Create
+    (
+        frame,
+        BUTTONID10, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON10")
+    );
+    spaceButton11.Create
+    (
+        frame,
+        BUTTONID11, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON11")
+    );
+    spaceButton12.Create
+    (
+        frame,
+        BUTTONID12, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON12")
+    );
+    spaceButton20.Create
+    (
+        frame,
+        BUTTONID20, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON20")
+    );
+    spaceButton21.Create
+    (
+        frame,
+        BUTTONID21, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON21")
+    );
+    spaceButton22.Create
+    (
+        frame,
+        BUTTONID22, 
+        wxString(""), 
+        wxPoint(0,0), 
+        wxSize(50,50), 
+        0,  
+        wxDefaultValidator, 
+        wxString("BUTTON22")
+    );
+    
 
     return true;
     
@@ -109,6 +225,16 @@ MyFrame::MyFrame()
  
     Bind(wxEVT_MENU, &MyFrame::OnAbout, this, wxID_ABOUT);
     Bind(wxEVT_MENU, &MyFrame::OnExit, this, wxID_EXIT);
+
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID00);
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID01);
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID02);
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID10);
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID11);
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID12);
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID20);
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID21);
+    Bind(wxEVT_BUTTON, &MyFrame::OnExit, this, BUTTONID22);
     
 
 }
@@ -159,14 +285,18 @@ void BasicDrawPane::render(wxDC&  dc)
         for(int j = 0; j < 3; j++) {
             if (Cells[i][j] == -1) {
                 dc.DrawRectangle(75+(j*100),75+(i*100),50,50);
+                //MyApp::spaceButton00.SetPosition(wxPoint(75,75));
             } else if (Cells[i][j] == 0) {
+                //MyApp::spaceButton00.Disable();
                 dc.DrawLine(75+(j*100), 75+(i*100), 125+(j*100), 125+(i*100));
                 dc.DrawLine(125+(j*100), 75+(i*100), 75+(j*100), 125+(i*100));
             } else if(Cells[i][j] == 1) {
+                //MyApp::spaceButton00.Disable();
                 dc.DrawCircle(100+(j*100), 100+(i*100), 30);
             }
         }
     }
+    
     
     
 
