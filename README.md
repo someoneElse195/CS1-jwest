@@ -1,5 +1,6 @@
 # Homework for CSCI 111. All in C++
 
+##Class is over so I am setting the repo to public! Enjoy my weird spaghetti code and random crappy homework.
 
 
 |Name           | Value                                         |
