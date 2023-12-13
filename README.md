@@ -255,7 +255,7 @@
 |-----------|------------------------------------------------------------------------|
 |Name       | FINAL PROJ                                                             |
 |Desc.      | Tic-Tac-Toe                                                            |
-|Due Date   | 11-24-2023                                                             |
+|Due Date   | 12-13-2023                                                             |
 |Status     | Done I think                                                           |
 |Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/FINAL/Real/>    |
 |Self Grade | 85/100                                                                 |
