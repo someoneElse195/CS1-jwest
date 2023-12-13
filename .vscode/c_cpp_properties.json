@@ -3,9 +3,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/local/lib/wx/include/**",
-                "/usr/include/wx-3.0"
+                "${workspaceFolder}/**"
             ],
             "defines": [],
             "cStandard": "c17",
