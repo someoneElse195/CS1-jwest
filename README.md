@@ -113,6 +113,18 @@
 |Notes      | Made a mistake inputting the two arrays in the wrong order for the print function.    |
 |           | Took me forever to fix it.                                                            |
 
+### HW8
+
+|Name       | Value                                                                                 |
+|-----------|---------------------------------------------------------------------------------------|
+|Name       | FileIO                                                                                |
+|Desc.      |                                                                                       |
+|Due Date   | 11-24-2023                                                                            |
+|Status     | None                                                                                  |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/assignments/null/>             |
+|Self Grade | 1/1                                                                                   |
+|Notes      |                                                                                       |
+
 ## Labs
 
 ### Lab1
@@ -222,4 +234,31 @@
 |Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/vector/>   |
 |Self Grade | 1/1                                                                    |
 |Notes      |                                                                        |
+
+### Lab10
+
+|Name       | Value                                                                  |
+|-----------|------------------------------------------------------------------------|
+|Name       | FileIO                                                                 |
+|Desc.      | Calculates statistical values of numbers and prints to file            |
+|Due Date   | 11-24-2023                                                             |
+|Status     | Didn't finish                                                          |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/labs/fileIO/>   |
+|Self Grade | 50/100                                                                 |
+|Notes      |                                                                        |
+
+
+
+## FINAL
+
+|Name       | Value                                                                  |
+|-----------|------------------------------------------------------------------------|
+|Name       | FINAL PROJ                                                             |
+|Desc.      | Tic-Tac-Toe                                                            |
+|Due Date   | 11-24-2023                                                             |
+|Status     | Done I think                                                           |
+|Location   | <https://github.com/someoneElse195/CS1-jwest/tree/main/FINAL/Real/>    |
+|Self Grade | 85/100                                                                 |
+|Notes      | Wish I could have actually done what I wanted..                        |
+|           | Sometimes things just don't pan out on time or how you want.           |
 
