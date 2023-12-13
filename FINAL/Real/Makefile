@@ -11,7 +11,7 @@ CXXFLAGS = -c -g -Wall -std=c++17
 PROGRAM = main
 
 # list .cpp files separated by space
-CPPFILES = main.cpp
+CPPFILES = main.cpp Grid.cpp
 
 # make all rule/default rule that'll be run when we run "make"
 # first compile each file to object file
@@ -24,6 +24,7 @@ all:
 # delete object and binary files
 clean:
 	rm -f $(PROGRAM) *.o
+	rm stats.txt
 
 run: 
 	./$(PROGRAM)
