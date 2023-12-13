@@ -219,7 +219,6 @@ void aiChooseRandom(Grid& gameGrid, int &x, int &y) {
     srand(time(nullptr));
 
     do {
-        // Generate random coordinates
         x = rand() % 3;
         y = rand() % 3;
     } while (gameGrid.getCell(x, y) != -1); 
